@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../dist/output.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>CLIENT FIRST</title>
+</head>
+
+<body class="text-sen">
+  <div class="max-w-[1440px] mx-auto">
+    <nav class="w-full p-5 sm:px-10 md:px-16 bg-primary text-white flex justify-between items-center">
+      <h1 class="text-xl font-semibold">{finnsweet}</h1>
+      <ul class="hidden md:flex md:justify-between md:gap-x-4 lg:gap-x-5">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Subscribe</a></li>
+      </ul>
+      <div class="text-xl md:hidden">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
+    <header class="relative w-full h-screen sm:max-h-screen md:max-h-[600px] bg-center bg-cover px-5 sm:px-10 md:px-16"
+      style="background-image: url(../asset/1.svg);">
+      <div class="w-full h-full bg-black/40 absolute inset-0"></div>
+      <div class="absolute top-45persen sm:top-35persen md:top-25persen lg:top-30persen text-white w-11/12 md:w-9/12">
+        <p class="tex-sm sm:text-base md:text-lg mb-1">Posted on <strong class="text-kuning">startup</strong></p>
+        <h1 class="text-4xl md:text-5xl font-semibold mb-4">Step-by-step guide to choosing great font pairs</h1>
+        <p class="text-sm sm:text-base md:text-lg mb-2">By <span class="text-kuning">James West</span> | May 23, 2022
+        </p>
+        <p class="text-sm sm:text-base mb-3 w-11/12 sm:w-9/12 md:w-9/12">Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint
+          occaecat cupidatat non proident.</p>
+        <button type="submit" class="px-3 py-2 bg-kuning text-primary text-sm">Read More ></button>
+      </div>
+    </header>
+
+    <section
+      class="relative w-full bg-center bg-cover px-5 sm:px-10 md:px-16 mt-16 flex flex-col lg:flex-row lg:justify-between">
+      <div class="w-full lg:w-55persen">
+        <h1 class="text-xl md:text-2xl font-semibold mb-4">Featured Post</h1>
+        <img src="../asset/2.svg" alt="" class="w-full h-52 md:h-64 lg:h-52 object-center object-cover">
+        <p class="mb-4">By <span class="text-ungu">John Doe</span> l May 23, 2022</p>
+        <h1 class="text-xl font-semibold mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor.</h1>
+        <p class="text-sm mb-2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident.</p>
+        <button type="submit" class="px-3 py-2 bg-kuning text-black">Read More ></button>
+      </div>
+
+      <div class="mt-10 lg:mt-0 lg:w-43persen">
+        <h1 class="text-2xl font-semibold mb-4">All Post</h1>
+        <div class="flex flex-col sm:flex-row lg:flex-col sm:justify-between sm:flex-wrap gap-y-5 lg:gap-y-7">
+          <div class="sm:w-49persen lg:w-full">
+            <p class="text-sm">By <span class="text-ungu">John Deo</span> l Aug 23, 2021</p>
+            <h1 class="text-xl font-semibold">8 Figma design systems that you can download for free today.</h1>
+          </div>
+
+          <div class="bg-lightyellow sm:w-49persen lg:w-full">
+            <p class="text-sm">By <span class="text-ungu">John Deo</span> l Aug 23, 2021</p>
+            <h1 class="text-xl font-semibold">8 Figma design systems that you can download for free today.</h1>
+          </div>
+
+          <div class="sm:w-49persen lg:w-full">
+            <p class="text-sm">By <span class="text-ungu">John Deo</span> l Aug 23, 2021</p>
+            <h1 class="text-xl font-semibold">8 Figma design systems that you can download for free today.</h1>
+          </div>
+
+          <div class="bg-lightyellow sm:w-49persen lg:w-full">
+            <p class="text-sm">By <span class="text-ungu">John Deo</span> l Aug 23, 2021</p>
+            <h1 class="text-xl font-semibold">8 Figma design systems that you can download for free today.</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative w-full px-5 sm:px-10 md:px-16 mt-16 flex flex-col">
+      <div class="w-full sm:w-9/12 lg:w-10/12 flex self-end">
+        <span class="w-70persen h-3 bg-kuning"></span>
+        <span class="w-30persen h-3 bg-ungu"></span>
+      </div>
+      <div class="bg-lightgrey px-5 sm:px-8 py-10 flex flex-col lg:flex-row lg:justify-between">
+        <div class="mb-8 lg:w-45persen">
+          <p class="text-base font-bold mb-3">ABOUT US</p>
+          <h1 class="text-xl md:text-2xl font-semibold mb-2">We are a community of content writers who share their
+            learnings</h1>
+          <p class="text-sm mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore
+            magna
+            aliqua.</p>
+          <a href="#" class="text-lg text-ungu">Read More ></a>
+        </div>
+
+        <div class="lg:w-45persen">
+          <p class="text-base font-bold mb-3">OUR MISSION</p>
+          <h1 class="text-xl md:text-2xl font-semibold mb-2">Creating valuable content for creatives all around the
+            world</h1>
+          <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et
+            dolore
+            magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative w-full px-5 sm:px-10 md:px-16 mt-16 flex flex-col items-center">
+      <h1 class="text-2xl font-semibold mb-5">Chose A Category</h1>
+      <div class="w-full flex flex-col gap-y-4 sm:flex-row sm:justify-between sm:flex-wrap lg:flex-row">
+        <div class="w-full border flex flex-col gap-y-2 p-8 lg:p-4 lg:py-8 sm:w-48persen lg:w-24persen">
+          <img src="../asset/business.svg" alt="" class="w-14 h-14 object-cover object-center">
+          <h1 class="text-2xl font-semibold">Bussiness</h1>
+          <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="w-full flex flex-col gap-y-2 p-8 lg:p-4 lg:py-8 bg-kuning sm:w-48persen lg:w-24persen">
+          <img src="../asset/ekonomi.svg" alt="" class="w-14 h-14 object-cover object-center">
+          <h1 class="text-2xl font-semibold">Economy</h1>
+          <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="w-full border flex flex-col gap-y-2 p-8 lg:p-4 lg:py-8 sm:w-48persen lg:w-24persen">
+          <img src="../asset/startup.svg" alt="" class="w-14 h-14 object-cover object-center">
+          <h1 class="text-2xl font-semibold">Startup</h1>
+          <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="w-full flex flex-col gap-y-2 p-8 lg:p-4 lg:py-8 bg-kuning sm:w-48persen lg:w-24persen">
+          <img src="../asset/teknologi.svg" alt="" class="w-14 h-14 object-cover object-center">
+          <h1 class="text-2xl font-semibold">Technologi</h1>
+          <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative w-full px-5 sm:px-10 md:px-16 mt-16 flex flex-col">
+      <img src="../asset/3.svg" alt="" class="w-10/12 md:w-9/12 h-96 object-cover object-center">
+      <div
+        class="bg-white relative -mt-20 sm:-mt-52 md:-mt-80 w-11/12 sm:w-8/12 md:w-7/12 lg:w-6/12 p-5 sm:p-8 md:py-14 self-end">
+        <p class="text-lg font-semibold mb-2">Why we started</p>
+        <h1 class="text-2xl font-semibold md:font-bold mb-2">It started out as a simple idea and evolved into our
+          passion</h1>
+        <p class="text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+        <button type="submit" class="px-3 py-2 bg-kuning text-black">Discover our story ></button>
+      </div>
+    </section>
+
+    <section class="relative w-full px-5 sm:px-10 md:px-16 mt-16 flex flex-col items-center">
+      <h1 class="text-2xl font-semibold mb-5">List of Authors</h1>
+      <div class="flex flex-col sm:flex-row sm:justify-between sm:flex-wrap items-center w-full gap-y-4">
+        <div class="w-full sm:w-49persen lg:w-24persen flex flex-col items-center p-12 gap-y-3 bg-lightgrey">
+          <img src="../asset/people man.svg" alt="" class="w-24 h-24">
+          <h1 class="text-xl font-semibold">Floyd Miles</h1>
+          <p class="text-center ">Content Writer @Company</p>
+          <div class="flex justify-between w-6/12 text-lg">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+
+        <div class="w-full sm:w-49persen lg:w-24persen flex flex-col items-center p-12 gap-y-3 bg-lightyellow">
+          <img src="../asset/people man.svg" alt="" class="w-24 h-24">
+          <h1 class="text-xl font-semibold">Floyd Miles</h1>
+          <p class="text-center ">Content Writer @Company</p>
+          <div class="flex justify-between w-6/12 text-lg">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+
+        <div class="w-full sm:w-49persen lg:w-24persen flex flex-col items-center p-12 gap-y-3 bg-lightgrey">
+          <img src="../asset/people man.svg" alt="" class="w-24 h-24">
+          <h1 class="text-xl font-semibold">Floyd Miles</h1>
+          <p class="text-center ">Content Writer @Company</p>
+          <div class="flex justify-between w-6/12 text-lg">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+
+        <div class="w-full sm:w-49persen lg:w-24persen flex flex-col items-center p-12 gap-y-3 bg-lightyellow">
+          <img src="../asset/people man.svg" alt="" class="w-24 h-24">
+          <h1 class="text-xl font-semibold">Floyd Miles</h1>
+          <p class="text-center ">Content Writer @Company</p>
+          <div class="flex justify-between w-6/12 text-lg">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative w-full px-5 sm:px-10 md:px-16 mt-16 flex flex-wrap justify-between gap-y-5 items-center">
+      <img src="../asset/logo/1.svg" alt="" class="w-40persen md:w-10persen">
+      <img src="../asset/logo/2.svg" alt="" class="w-40persen md:w-10persen">
+      <img src="../asset/logo/3.svg" alt="" class="w-40persen md:w-10persen">
+      <img src="../asset/logo/4.svg" alt="" class="w-40persen md:w-10persen">
+      <img src="../asset/logo/5.svg" alt="" class="w-40persen md:w-10persen">
+      <img src="../asset/logo/6.svg" alt="" class="w-40persen md:w-10persen">
+    </section>
+
+    <section
+      class="relative w-full px-5 sm:px-20 sm:py-14 md:px-16 lg:px-36 mt-16 flex flex-col md:flex-row md:justify-between bg-lightyellow">
+      <div class="w-full md:w-5/12 bg-lightyellow my-8">
+        <p class="font-semibold">TESTIMONIAL</p>
+        <h1 class="text-4xl mb-3 font-semibold">What people say about our blog</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      </div>
+
+      <hr class="h-[1px] rounded bg-black md:rotate-180">
+
+      <div class="w-full md:w-6/12 my-8 bg-lightyellow">
+        <p class="text-3xl md:text-2xl font-semibold">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
+          suscipit
+          vitae praesentium perferendis corrupti repellat delectus odit quas distinctio eveniet."</p>
+        <div class="flex mt-5">
+          <img src="../asset/people man.svg" alt="" class="w-14 h-14 mr-4">
+          <div class="font-semibold">
+            <h1>Jonathan Vallem</h1>
+            <p>New york, USA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative w-full px-12 sm:px-24 md:px-30persen mt-16 flex flex-col items-center">
+      <h1 class="text-center text-3xl font-bold leading-[25px] mb-3">Join our team to be a part of our story</h1>
+      <p class="text-center text-sm sm:text-base mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt.</p>
+      <button type="submit" class="px-6 py-2 bg-kuning to-primary">Join Now</button>
+    </section>
+
+    <footer class="relative w-full py-8 gap-y-4 sm:px-10 md:px-16 mt-16 flex flex-col items-center text-white bg-primary">
+      <div class="w-full flex flex-col md:flex-row md:justify-between items-center gap-y-2">
+        <h1 class="text-3xl font-semibold md:w-4/12">{finnswet}</h1>
+        <ul class="flex text-sm justify-between w-10/12 md:relative md:w-6/12 lg:w-4/12">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About US</a></li>
+          <li><a href="#">Contact US</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    
+      <div class="w-full p-5 md:py-16 my-5 bg-darkgrey md:flex md:items-center md:my-10 md:justify-between">
+        <h1 class="text-xl text-center md:text-start font-semibold md:w-5/12 lg:text-3xl">Subscribe to our news letter
+          to
+          get latest updates and news</h1>
+        <div class="flex flex-col md:flex-row  items-center mt-5 gap-y-3 md:w-6/12 lg:w-5/12">
+          <input type="text" placeholder="Masukkan email..." class="p-2 w-10/12 md:w-full">
+          <button type="submit" class="px-4 py-2 bg-kuning text-primary">subscribe</button>
+        </div>
+      </div>
+    
+      <div class="flex flex-col md:flex-row gap-y-2 md:justify-between md:items-end md:w-full text-center md:text-start">
+        <div>
+          <p>Finstreet 118 2561 Fintown</p>
+          <p>Hello@finsweet.com 020 7993 2905</p>
+        </div>
+        <div class="md:flex md:gap-x-3 gap-x-3 flex justify-center">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
